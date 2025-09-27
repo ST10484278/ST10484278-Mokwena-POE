@@ -18,22 +18,40 @@ Customers in need of security or decorative steelwork
 •	Support the growth of the business
 •	Make it easier for customers to reach 
 •	Serve as a way of advertisement 
+<<<<<<< HEAD
+=======
+
+>>>>>>> 3e02d63fed5e169705064b27e966ca0f1cc89d86
 3	Proposed Website Features and Functionality
 •	Homepage: This will be the page landed on upon the launch of the website.
 •	About Us: A brief description about the organisation. 
 •	Products: This page will include all the type of the work company does namely buglers, fencing, gates and any type of steelwork also allowing customers to request custom work.
 •	Gallery: Previous work done by the organization will be displayed on this page allowing customers to have an idea what to expect from us.
 •	Contact Us: Contact details such as email address, telephone number and social media pages will be provided on this page together with the company’s address for walk-in consultations.
+<<<<<<< HEAD
+=======
+
+
+>>>>>>> 3e02d63fed5e169705064b27e966ca0f1cc89d86
 4	Design and User Experience
 •	Colour Scheme: Grey, black, steel blue – industrial feel
 •	Layout: Clean, grid-based layout with high-resolution images
 •	Font: Bold and clear
 •	Navigation: Simple with icons for services
 •	Responsive design for mobile devices and desktops
+<<<<<<< HEAD
+=======
+
+
+>>>>>>> 3e02d63fed5e169705064b27e966ca0f1cc89d86
 5	Technical Requirements
 •	HTML: It will be used to structure content into headings, paragraphs, images and tables using tags to define how the website will look like.
 •	CMS: The design and style of the website will be integrated using CSS focusing on fonts, colours, size and spacing. It will also be used to ensure the website has a defined and desired layout.
 •	JavaScript: make sure the website is responsive when used ensuring interactivity and allowing form validations together with animations.
+<<<<<<< HEAD
+=======
+
+>>>>>>> 3e02d63fed5e169705064b27e966ca0f1cc89d86
 6	Timeline and Milestones
 •	Week 1-4: Gathering all the resources and information needed, then creating html structure for the website.
 •	Week 5-8: Styling of the website using CSS to make it visualised, ensuring responsiveness and optimizing it for user experience.
