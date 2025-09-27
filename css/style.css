@@ -1,0 +1,104 @@
+/* ===========================
+   Base CSS Stylesheet
+   =========================== */
+
+/* 1. Reset / Normalize */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* 2. Root Variables (easy theming) */
+:root {
+  --font-family: 'Segoe UI', Arial, sans-serif;
+  --font-size-base: 16px;
+  --line-height: 1.5;
+  --color-text: #333;
+  --color-bg: #fff;
+  --color-primary: #0077cc;
+  --color-secondary: #555;
+  --color-accent: #ff6600;
+}
+
+/* 3. Global Styles */
+html {
+  font-size: var(--font-size-base);
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: var(--font-family);
+  line-height: var(--line-height);
+  color: var(--color-text);
+  background-color: var(--color-bg);
+}
+
+/* 4. Typography */
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 600;
+  line-height: 1.2;
+  margin-bottom: 0.5em;
+  color: var(--color-text);
+}
+
+p {
+  margin-bottom: 1em;
+  color: var(--color-secondary);
+}
+
+/* 5. Links & Buttons */
+a {
+  text-decoration: none;
+  color: var(--color-primary);
+  transition: color 0.3s ease;
+}
+
+a:hover {
+  color: var(--color-accent);
+}
+
+button {
+  cursor: pointer;
+  font-family: inherit;
+  padding: 0.5em 1em;
+  border: none;
+  border-radius: 6px;
+  background-color: var(--color-primary);
+  color: #fff;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: var(--color-accent);
+}
+
+/* 6. Layout helpers */
+.container {
+  width: 90%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.flex {
+  display: flex;
+  gap: 1rem;
+}
+
+.grid {
+  display: grid;
+  gap: 1rem;
+}
+
+/* 7. Images & Media */
+img, video {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+/* 8. Utility classes */
+.text-center { text-align: center; }
+.mt-1 { margin-top: 1rem; }
+.mb-1 { margin-bottom: 1rem; }
+.hidden { display: none; }
