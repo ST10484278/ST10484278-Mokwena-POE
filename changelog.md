@@ -10,6 +10,6 @@
 - Footer with consistent styling.  
 - Responsive design using media queries for desktop, tablet, and mobile.  
 - Gallery page styling using CSS Grid with captions and responsive image sizing.  
-
+- Added a css styling for my contacts page within my stylesheet
 
  
