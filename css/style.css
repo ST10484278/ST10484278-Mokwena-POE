@@ -249,93 +249,93 @@ main section h3 {
                                         }
                           }
 
-/* ===========================
-   CONTACT PAGE STYLING
-   =========================== */
+/*----------------------------------CONTACT PAGE STYLING---------------------------------------------------------*/
+
+  
 
 .contact-page h2 {
-  text-align: center;
-  font-size: 2.2rem;
-  color: var(--color-primary);
-  margin-bottom: 1rem;
-}
+                    text-align: center;
+                    font-size: 2.2rem;
+                    color: var(--color-primary);
+                    margin-bottom: 1rem;
+                  }
 
 .contact-page p {
-  text-align: center;
-  margin-bottom: 1.5rem;
-  color: var(--color-secondary);
-  font-size: 1.1rem;
-  line-height: 1.6;
-}
+                    text-align: center;
+                    margin-bottom: 1.5rem;
+                    color: var(--color-secondary);
+                    font-size: 1.1rem;
+                    line-height: 1.6;
+                }
 
 .contact-page .contact-grid {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 2rem;
-  margin: 2rem 0;
-}
+                              display: grid;
+                              grid-template-columns: 1fr 1fr;
+                              gap: 2rem;
+                              margin: 2rem 0;
+                            }
 
 .contact-page form,
-.contact-page .contact-info {
-  background: white;
-  padding: 2rem;
-  border-radius: 10px;
-  box-shadow: 0 3px 8px rgba(0,0,0,0.1);
-}
+    .contact-page .contact-info {
+                                  background: white;
+                                  padding: 2rem;
+                                  border-radius: 10px;
+                                  box-shadow: 0 3px 8px rgba(0,0,0,0.1);
+                                }
 
 .contact-page .contact-info {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-}
+                              display: flex;
+                              flex-direction: column;
+                              justify-content: center;
+                            }
 
 .contact-page form label {
-  display: block;
-  font-weight: bold;
-  margin-bottom: 0.5rem;
-  color: var(--color-primary);
-}
+                            display: block;
+                            font-weight: bold;
+                            margin-bottom: 0.5rem;
+                            color: var(--color-primary);
+                          }
 
 .contact-page form input,
 .contact-page form textarea {
-  width: 100%;
-  padding: 0.8rem;
-  border: 1px solid var(--color-secondary);
-  border-radius: 6px;
-  font-size: 1rem;
-  margin-bottom: 1.5rem;
-  transition: border 0.3s ease;
-}
+                              width: 100%;
+                              padding: 0.8rem;
+                              border: 1px solid var(--color-secondary);
+                              border-radius: 6px;
+                              font-size: 1rem;
+                              margin-bottom: 1.5rem;
+                              transition: border 0.3s ease;
+                            }
 
 .contact-page form input:focus,
 .contact-page form textarea:focus {
-  border-color: var(--color-accent);
-  outline: none;
-}
+                                    border-color: var(--color-accent);
+                                    outline: none;
+                                  }
 
 .contact-page form button {
-  background: var(--color-accent);
-  color: white;
-  padding: 0.9rem 1.5rem;
-  border: none;
-  border-radius: 6px;
-  cursor: pointer;
-  font-size: 1rem;
-  transition: background 0.3s ease;
-}
+                              background: var(--color-accent);
+                              color: white;
+                              padding: 0.9rem 1.5rem;
+                              border: none;
+                              border-radius: 6px;
+                              cursor: pointer;
+                              font-size: 1rem;
+                              transition: background 0.3s ease;
+                          }
 
 .contact-page form button:hover {
-  background: var(--color-highlight);
-}
+                                  background: var(--color-highlight);
+                                }
 
 /* Responsive Layout */
 @media (max-width: 768px) {
-  .contact-page .contact-grid {
-    grid-template-columns: 1fr;
-  }
+                            .contact-page .contact-grid {
+                                                          grid-template-columns: 1fr;
+                                                        }
 
-  .contact-page h2 {
-    font-size: 1.8rem;
-  }
-}
+                            .contact-page h2  {
+                                                  font-size: 1.8rem;
+                                              }
+                          }
 
