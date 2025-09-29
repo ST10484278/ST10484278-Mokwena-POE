@@ -59,6 +59,25 @@ Customers in need of security or decorative steelwork
 
 [text](../../../Downloads/sitemap.pdf)
 
-
 8	References
 •	HostAfrica (2025) How Much Is It To Host A Website In South Africa?, HostAfrica blog, 13 June. Available at: https://hostafrica.co.za/blog/hosting/how-much-is-it-to-host-a-website/ (Accessed: 25 August 2025).
+
+## Update Log
+## Added CSS Stylesheet
+- Created and linked a dedicated CSS file to enhance the overall design and responsiveness of the website.  
+- Implemented a **consistent color scheme** using CSS variables for easy theme management.  
+- Added **layout utilities** (`.container`, `.flex`, `.grid`, `.grid-2`, `.grid-3`) to simplify responsive structure.  
+- Designed and styled the **navigation bar** with hover effects.  
+- Created a **hero section** with background overlay and typography styling.  
+- Added **card components** for products and services with hover animation.  
+- Styled **buttons** with transitions and hover states.  
+- Developed a **gallery page layout** using CSS Grid with captions and responsiveness for different screen sizes.  
+- Improved **footer styling** for consistency.  
+- Applied **media queries** for responsiveness across desktops, tablets, and mobile devices.  
+
+## Referencing
+The CSS design principles were influenced by general web design guidelines and best practices from reputable sources:  
+
+- MDN Web Docs. (2025). *Learn CSS: Cascading Style Sheets*. Mozilla. Available at: [https://developer.mozilla.org/en-US/docs/Learn/CSS](https://developer.mozilla.org/en-US/docs/Learn/CSS) [Accessed 29 September 2025].  
+- W3Schools. (2025). *CSS Tutorial*. W3Schools Online Web Tutorials. Available at: [https://www.w3schools.com/css/](https://www.w3schools.com/css/) [Accessed 24 September 2025].  
+
