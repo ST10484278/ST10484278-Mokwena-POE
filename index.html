@@ -4,52 +4,99 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>STEEL@MAJOR - Home</title>
-  <!-- Correct single stylesheet link -->
   <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
 
   <!-- Header -->
   <header>
-    <h1>STEEL@MAJOR</h1>
-    <!-- Navigation section containing links to navigate through the website -->
-    <nav>
-      <ul>
-        <li><a href="index.html">Home</a></li>
-        <li><a href="products.html">Products</a></li>
-        <li><a href="gallery.html">Gallery</a></li>
-        <li><a href="about.html">About</a></li>
-        <li><a href="contact.html">Contact</a></li>
-      </ul>
-    </nav>
+    <div class="container">
+      <h1>STEEL@MAJOR</h1>
+      <nav>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="products.html">Products</a></li>
+          <li><a href="gallery.html">Gallery</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
   </header>
 
-  <!-- Main -->
-  <main>
-    <section>
-      <h2>Welcome to STEEL@MAJOR</h2>
-      <p>
-        High-quality steel gates, burglar bars, and fences for homes and businesses. 
-        If you are looking for quality work then look no further. 
-        Our aim is to do right by our customers to ensure 
-        that they are satisfied with the work done for them.
-      </p>
-    </section>
+  <!-- Hero Section -->
+  <section class="hero">
+    <div class="container">
+      <h1>Welcome to STEEL@MAJOR</h1>
+      <p>We specialize in high-quality steel solutions, offering gates, burglar bars, and fences designed for strength, safety, and style. Our products are crafted to protect your home, enhance your property’s appearance, and provide long-lasting durability.</p>
+      <a href="products.html" class="btn">View Our Products</a>
+    </div>
+  </section>
 
+  <!-- Why Choose Us -->
+  <section class="container">
+    <h2>Why Choose STEEL@MAJOR?</h2>
+    <p>At STEEL@MAJOR, we combine exceptional craftsmanship with premium materials. Every project is tailored to meet your specific needs, ensuring both security and aesthetic appeal. Our team takes pride in delivering:</p>
+    <ul>
+      <li><strong>Durable Construction:</strong> Only the strongest, corrosion-resistant steel is used.</li>
+      <li><strong>Custom Designs:</strong> Gates, burglar bars, and fences crafted to your style.</li>
+      <li><strong>Expert Installation:</strong> Quick, safe, and professional setup.</li>
+      <li><strong>Affordable Pricing:</strong> High-quality products at competitive rates.</li>
+    </ul>
+  </section>
+
+  <!-- Products Preview -->
+  <main class="container">
     <section>
       <h2>Our Products</h2>
-      <p>Browse our strong and stylish steel designs.</p>
-      <ul>
-        <li><a href="products.html">Gates</a></li>
-        <li><a href="products.html">Burglar Bars</a></li>
-        <li><a href="products.html">Fences</a></li>
-      </ul>
+      <p>Explore our wide range of steel products designed for homes and businesses. Whether you need robust gates, secure burglar bars, or decorative fencing, STEEL@MAJOR has you covered.</p>
+
+      <div class="grid grid-3">
+        <div class="card">
+          <img src="images/gate.jpg" alt="Steel Gates">
+          <h3>Gates</h3>
+          <p>Our steel gates combine strength and style. Choose from a variety of designs that enhance the security and look of your property.</p>
+          <a href="products.html" class="btn">View More</a>
+        </div>
+
+        <div class="card">
+          <img src="images/burglar.jpg" alt="Burglar Bars">
+          <h3>Burglar Bars</h3>
+          <p>Protect your home with custom burglar bars made from premium steel. Our designs offer maximum security without compromising aesthetics.</p>
+          <a href="products.html" class="btn">View More</a>
+        </div>
+
+        <div class="card">
+          <img src="images/fence.jpg" alt="Steel Fences">
+          <h3>Fences</h3>
+          <p>Our steel fences provide long-lasting protection for your property. Ideal for both residential and commercial spaces, designed to endure harsh weather.</p>
+          <a href="products.html" class="btn">View More</a>
+        </div>
+      </div>
     </section>
   </main>
 
+  <!-- Testimonials Section -->
+  <section class="container">
+    <h2>What Our Customers Say</h2>
+    <div class="grid grid-2">
+      <div class="testimonial">
+        <p>"STEEL@MAJOR installed my new gate and fence. The quality is unmatched and the team was professional from start to finish. Highly recommend!"</p>
+        <strong>- Thabo M.</strong>
+      </div>
+      <div class="testimonial">
+        <p>"Their custom burglar bars not only make my home secure but also look fantastic. Excellent workmanship and attention to detail."</p>
+        <strong>- Lerato N.</strong>
+      </div>
+    </div>
+  </section>
+
   <!-- Footer -->
   <footer>
-    <p>&copy; 2025 STEEL@MAJOR | All Rights Reserved</p>
+    <div class="container">
+      <p>&copy; 2025 STEEL@MAJOR | All Rights Reserved</p>
+      <p>Contact us: info@steelmajor.co.za | +27 123 456 7890</p>
+    </div>
   </footer>
 
 </body>

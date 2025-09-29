@@ -4,59 +4,75 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Contact - STEEL@MAJOR</title>
-  <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="css/style.css" type="text/css">
+  <link rel="stylesheet" href="css/style.css" type="text/css">
 </head>
 <body>
 
+  <!-- Header -->
   <header>
-    <h1>STEEL@MAJOR</h1>
-
-    <!--Navigation section containing links to navigate through the website-->
-    <nav>
-      <ul>
-        <li><a href="index.html">Home</a></li>
-        <li><a href="products.html">Products</a></li>
-        <li><a href="gallery.html">Gallery</a></li>
-        <li><a href="about.html">About</a></li>
-        <li><a href="contact.html">Contact</a></li>
-      </ul>
-    </nav>
+    <div class="container">
+      <h1>STEEL@MAJOR</h1>
+      <!-- Navigation section -->
+      <nav>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="products.html">Products</a></li>
+          <li><a href="gallery.html">Gallery</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
   </header>
 
-  <main>
+  <!-- Main Content -->
+  <main class="container">
     <h2>Contact Us</h2>
-
-    <p>To get in touch with is, you can fill out the online form below accompanied by a brief explanation 
-        of the work you want us to do for you and we will contact you back. You can also use the provided telepone numbers 
-         or the email address provided below. 
-    </p>
-    <P>Alternatively you can come to our office to speak with our consaltants for enquiries, to make follow-ups or make payements.</P>
-
-    <!-- This form collects user input to be sent to the organisation's server for reviews.-->>
-    <form>
-      <label>Name:</label><br>
-      <input type="text" name="name"><br><br>
-      <label>Email:</label><br>
-      <input type="email" name="email"><br><br>
-      <label>Message:</label><br>
-      <textarea rows="4"></textarea><br><br>
-      <button type="submit">Send</button>
-    </form>
+    <p>We would love to hear from you! Whether you have questions, need a quote, or want to discuss a custom project, our team is ready to assist you. Fill out the form below and we will respond promptly.</p>
     
-    <!--Organisation's contact details including its physical address-->
-    <p>Phone: +27 72 123 2341</p>
-    <p>Phone: +27 83 723 8765</p>
-    <p>Email: info@steelmajor.co.za</p>
-    <p>office Adress</p>
-    <P> Stand No. 011141</P>
-    <P> Ga Mathule</P>
-    <p> Moroke</p>
-    <P> 1154</P>
+    <p>Alternatively, you can reach us via phone, email, or visit our office during working hours. Our consultants are available to provide guidance, follow-ups, and payment assistance.</p>
+
+    <!-- Contact Form -->
+    <form>
+      <label for="name">Name:</label><br>
+      <input type="text" id="name" name="name" required><br><br>
+
+      <label for="email">Email:</label><br>
+      <input type="email" id="email" name="email" required><br><br>
+
+      <label for="message">Message:</label><br>
+      <textarea id="message" name="message" rows="6" required></textarea><br><br>
+
+      <button type="submit">Send Message</button>
+    </form>
+
+    <!-- Contact Details -->
+    <section>
+      <h3>Contact Information</h3>
+      <p><strong>Phone:</strong> +27 72 123 2341 | +27 83 723 8765</p>
+      <p><strong>Email:</strong> info@steelmajor.co.za</p>
+      <p><strong>Office Address:</strong></p>
+      <p>Stand No. 011141, Ga Mathule, Moroke, 1154</p>
+      <p><strong>Office Hours:</strong> Monday - Friday: 08:00 - 17:00 | Saturday: 09:00 - 13:00</p>
+      <p><em>Pro tip:</em> You can also schedule a consultation or site visit by contacting us in advance.</p>
+    </section>
+
+    <!-- Optional Map Embed -->
+    <section>
+      <h3>Find Us Here</h3>
+      <p>For easy directions, visit our location on Google Maps:</p>
+      <a href="https://www.google.com/maps" target="_blank">View Map</a>
+    </section>
+
   </main>
 
+  <!-- Footer -->
   <footer>
-    <p>&copy; 2025 STEEL@MAJOR | All Rights Reserved</p>
+    <div class="container">
+      <p>&copy; 2025 STEEL@MAJOR | All Rights Reserved</p>
+      <p>Email: info@steelmajor.co.za | Phone: +27 72 123 2341</p>
+    </div>
   </footer>
+
 </body>
 </html>
