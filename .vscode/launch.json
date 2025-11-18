@@ -1,0 +1,14 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "msedge",
+            "request": "launch",
+            "name": "Open index.html",
+            "file": "c:\\Users\\Tmanv\\OneDrive\\Desktop\\Assignments\\WEDE\\ST10484278-Mokwena Tumelo-WEDE5020w-POE\\index.html"
+        }
+    ]
+}
