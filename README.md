@@ -62,7 +62,7 @@ Customers in need of security or decorative steelwork
 8	References
 •	HostAfrica (2025) How Much Is It To Host A Website In South Africa?, HostAfrica blog, 13 June. Available at: https://hostafrica.co.za/blog/hosting/how-much-is-it-to-host-a-website/ (Accessed: 25 August 2025).
 
-## Update Log
+## Changelog
 ## Added CSS Stylesheet
 - Created and linked a dedicated CSS file to enhance the overall design and responsiveness of the website.  
 - Implemented a **consistent color scheme** using CSS variables for easy theme management.  

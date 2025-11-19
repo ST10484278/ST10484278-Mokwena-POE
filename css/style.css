@@ -340,20 +340,38 @@ main section h3 {
                           }
 
 
-.lightbox {
-  position: fixed;
-  top: 0; left: 0;
-  width: 100%;
-  height: 100%;
-  background: rgba(0,0,0,0.8);
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  z-index: 9999;
-}
+.lightbox 
+        {
+          position: fixed;
+          top: 0; left: 0;
+          width: 100%;
+          height: 100%;
+          background: rgba(0,0,0,0.8);
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          z-index: 9999;
+        }
 
-.lightbox img {
-  width: 80%;
-  max-width: 700px;
-  border-radius: 10px;
-}
+.lightbox img 
+            {
+              width: 80%;
+              max-width: 700px;
+              border-radius: 10px;
+            }
+
+.accordion-title 
+                {
+                    background: #333;
+                    color: white;
+                    padding: 12px;
+                    cursor: pointer;
+                    margin-top: 5px;
+                }
+
+.accordion-content 
+                  {
+                    display: none;
+                    padding: 10px;
+                    background: #eee;
+                  }
