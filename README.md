@@ -1,83 +1,136 @@
-# ST10484278-Mokwena-POE
-•	Name of organisation:
+ST10484278 – Mokwena – POE
+
+## 1. Name of Organisation
+
 STEEL@MAJOR
-•	Brief history of organisation
-STEEL@MAJOR is a small local business that specializes in manufacturing and installing high-quality steel products such as gates, burglar bars, and fences. It was started by a skilled welder and fabricator who wanted to bring custom metalwork solutions to homeowners and builders. Customers can choose from a range of in-house designs or submit their own.
-•	Mission: 
-To design and install strong, durable, and attractive steel solutions tailored to customer needs.
-•	Vision: 
-To become a household name for secure and artistic steelwork in local communities.
- 
-•	Target Audience
-Homeowners
-Builders and contractors
-Business premises
-Customers in need of security or decorative steelwork
 
-2	Website Goals and Objectives
-•	Support the growth of the business
-•	Make it easier for customers to reach 
-•	Serve as a way of advertisement 
-<<<<<<< HEAD
-=======
+## 2. Brief History of Organisation
 
->>>>>>> 3e02d63fed5e169705064b27e966ca0f1cc89d86
-3	Proposed Website Features and Functionality
-•	Homepage: This will be the page landed on upon the launch of the website.
-•	About Us: A brief description about the organisation. 
-•	Products: This page will include all the type of the work company does namely buglers, fencing, gates and any type of steelwork also allowing customers to request custom work.
-•	Gallery: Previous work done by the organization will be displayed on this page allowing customers to have an idea what to expect from us.
-•	Contact Us: Contact details such as email address, telephone number and social media pages will be provided on this page together with the company’s address for walk-in consultations.
-<<<<<<< HEAD
-=======
+        STEEL@MAJOR is a small local business that specializes in manufacturing and installing high-quality steel products, including gates, burglar bars, steel fencing, and custom metalwork. The business was founded by a skilled welder and fabricator to offer durable, secure, and aesthetically pleasing steel solutions. Customers may select from available designs or submit custom concepts to be fabricated.
 
+## 3. Mission
 
->>>>>>> 3e02d63fed5e169705064b27e966ca0f1cc89d86
-4	Design and User Experience
-•	Colour Scheme: Grey, black, steel blue – industrial feel
-•	Layout: Clean, grid-based layout with high-resolution images
-•	Font: Bold and clear
-•	Navigation: Simple with icons for services
-•	Responsive design for mobile devices and desktops
-<<<<<<< HEAD
-=======
+        To design and install strong, durable, and visually appealing steelwork solutions tailored to customer needs.
 
+## 4. Vision
 
->>>>>>> 3e02d63fed5e169705064b27e966ca0f1cc89d86
-5	Technical Requirements
-•	HTML: It will be used to structure content into headings, paragraphs, images and tables using tags to define how the website will look like.
-•	CMS: The design and style of the website will be integrated using CSS focusing on fonts, colours, size and spacing. It will also be used to ensure the website has a defined and desired layout.
-•	JavaScript: make sure the website is responsive when used ensuring interactivity and allowing form validations together with animations.
-<<<<<<< HEAD
-=======
+        To become a household name known for secure, innovative, and artistic steelwork within local communities.
 
->>>>>>> 3e02d63fed5e169705064b27e966ca0f1cc89d86
-6	Timeline and Milestones
-•	Week 1-4: Gathering all the resources and information needed, then creating html structure for the website.
-•	Week 5-8: Styling of the website using CSS to make it visualised, ensuring responsiveness and optimizing it for user experience.
-•	Week 9-13: Enhancing interactivity and optimizing the website for search engines using JavaScript, also making sure the website is ready to be launched and go live.
+## 5. Target Audience
 
-[text](../../../Downloads/sitemap.pdf)
+        The website is aimed at:
 
-8	References
-•	HostAfrica (2025) How Much Is It To Host A Website In South Africa?, HostAfrica blog, 13 June. Available at: https://hostafrica.co.za/blog/hosting/how-much-is-it-to-host-a-website/ (Accessed: 25 August 2025).
+        Homeowners
 
-## Changelog
-## Added CSS Stylesheet
-- Created and linked a dedicated CSS file to enhance the overall design and responsiveness of the website.  
-- Implemented a **consistent color scheme** using CSS variables for easy theme management.  
-- Added **layout utilities** (`.container`, `.flex`, `.grid`, `.grid-2`, `.grid-3`) to simplify responsive structure.  
-- Designed and styled the **navigation bar** with hover effects.  
-- Created a **hero section** with background overlay and typography styling.  
-- Added **card components** for products and services with hover animation.  
-- Styled **buttons** with transitions and hover states.  
-- Developed a **gallery page layout** using CSS Grid with captions and responsiveness for different screen sizes.  
-- Improved **footer styling** for consistency.  
-- Applied **media queries** for responsiveness across desktops, tablets, and mobile devices.  
+        Builders and contractors
 
-## Referencing
-The CSS design principles were influenced by general web design guidelines and best practices from reputable sources:  
+        Business premises
 
-- MDN Web Docs. (2025). *Learn CSS: Cascading Style Sheets*. Mozilla. Available at: [https://developer.mozilla.org/en-US/docs/Learn/CSS](https://developer.mozilla.org/en-US/docs/Learn/CSS) [Accessed 29 September 2025].  
-- W3Schools. (2025). *CSS Tutorial*. W3Schools Online Web Tutorials. Available at: [https://www.w3schools.com/css/](https://www.w3schools.com/css/) [Accessed 24 September 2025].  
+        Customers seeking security or decorative steelwork
 
+## 6. Website Goals and Objectives
+
+        The website was created to:
+
+        Support the growth of the business
+
+        Make it easier for customers to reach the organisation
+
+        Serve as a digital advertising and marketing tool
+
+        Provide customers with access to examples of past work
+
+        Offer a platform where clients can request custom steel products
+
+        ## 7. Proposed Website Features and Functionality
+
+        Homepage: Primary landing page introducing the brand.
+
+        About Us: Background and purpose of the organisation.
+
+        Products: Details about burglar bars, gates, fences, and custom steelwork.
+
+        Gallery: Visual showcase of past projects.
+
+        Contact Us: Includes contact details, address, and a structured form for customer inquiries.
+
+## 8. Design and User Experience
+
+        Colour Scheme: Grey, black, steel blue — industrial and professional theme
+
+        Layout: Clean grid-based layout with high-resolution visuals
+
+        Font: Bold and clear typography
+
+        Navigation: Simple, intuitive, and consistent across all pages
+
+        Responsive Design: Full compatibility with mobile, tablet, and desktop devices
+
+## 9. Technical Requirements
+
+        HTML: Used for structuring content using headings, paragraphs, navigation elements, images, and lists.
+
+        CSS: Provides design, styling, colour schemes, spacing, layout structures, and responsive behaviour.
+
+        JavaScript: Adds website interactivity, dynamic content features, animations, and form-related logic.
+
+## 10. Timeline and Milestones
+
+        Week 1–4: Resource gathering and creation of the full website HTML structure.
+
+        Week 5–8: CSS styling to build the visual layout and ensure responsiveness.
+
+        Week 9–13: JavaScript implementation, dynamic features, and final optimizations before deployment.
+
+## 11. Sitemap
+
+        See the attached PDF:
+        [sitemap.pdf]
+
+## 12. Changelog
+
+         Part 2 — CSS Styling
+
+        Created and linked an external CSS stylesheet.
+
+        Added CSS variables, resets, and responsive utilities.
+
+        Styled navigation bar, hero section, cards, buttons, gallery grid, and footer.
+
+        Applied media queries for full responsiveness.
+
+        Improved contact page styling and form layout.
+        Expanded and enhanced content across all pages for clarity and usability.
+
+        Part 3 — JavaScript Functionality
+
+        Added external JavaScript file (script.js) and linked it using defer.
+
+        Inserted <section id="dynamicContent"></section> on all pages for future JavaScript-driven content.
+
+        Integrated an accordion component on Products page for collapsible FAQs.
+
+        Organised DOM structure for improved interactivity and future component design.
+
+## 13. References
+
+General Website Hosting
+
+HostAfrica (2025) How Much Is It To Host A Website In South Africa? HostAfrica Blog, 13 June. Available at: https://hostafrica.co.za/blog/hosting/how-much-is-it-to-host-a-website/
+ (Accessed: 25 August 2025).
+
+CSS Design Principles
+
+MDN Web Docs (2025) Learn CSS: Cascading Style Sheets. Mozilla. Available at: https://developer.mozilla.org/en-US/docs/Learn/CSS
+ (Accessed: 29 September 2025).
+W3Schools (2025) CSS Tutorial. W3Schools. Available at: https://www.w3schools.com/css/
+ (Accessed: 24 September 2025).
+
+JavaScript & Interactive Components 
+
+MDN Web Docs (2025) Introduction to JavaScript. Mozilla. Available at: https://developer.mozilla.org/en-US/docs/Learn/JavaScript
+ (Accessed: 1 October 2025).
+W3Schools (2025) JavaScript HTML DOM. W3Schools. Available at: https://www.w3schools.com/js/js_htmldom.asp
+ (Accessed: 3 October 2025).
+JavaScript.info (2025) Browser Events and Interaction. Available at: https://javascript.info/events
+ (Accessed: 4 October 2025).
